@@ -17,7 +17,7 @@ From the command line:
 $ git init
 Clone this repository
 $ git clone https://github.com/spittis/pittis_pao_flomen_priestman_hause_midterm.git
-$ cd pittis_pao_flomen_hause_priestman_fip
+$ cd pittis_pao_flomen_priestman_hause_midterm
 Open the index.html in a browser of your choosing. Chrome works best.
 ```
 
