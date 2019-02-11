@@ -1,6 +1,46 @@
 export default {
     template: `
-    <h1>Sign Up here!</h1>
+    <div>
+
+    <div id="contactLeft">
+    <img src="images/maidofthemist.jpg" alt="">
+</div>
+
+<div id="contactRight">
+<h1>Get In Touch</h1>
+<form action="sign-up.php" method="POST">
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" value="" placeholder="Country"><br><br>
+        
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="fname" value="" placeholder="First Name"><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="lname" value="" placeholder="Last Name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="" placeholder="Email Address"><br><br>
+
+        <button type="submit" name="submit">Submit</button>
+</form>
+</div>
+<div id="explore">
+    <h2>Why Choose Ontario</h2>
+
+    <ul>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.</p>
+        </li>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.</p>
+        </li>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.</p>
+        </li>
+    </ul>
+</div>
+
+    </div>
     `,
 
     data() {
