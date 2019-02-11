@@ -6,6 +6,43 @@
 @import 'modules/contact';
 @import 'modules/animate';
 
+h1 {
+    font-family: $font-header;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 3em;
+    color: $font-color;
+}
+
+h2 {
+    font-family: $font-header;
+    font-weight: bold;
+    font-size: 2.25em;
+    text-transform: uppercase;
+    color: $font-color;
+}
+
+h3 {
+    font-family: $font-header;
+    font-weight: normal;
+    font-size: 1.75em;
+    color: $font-color;
+}
+
+h4 {
+    font-family: $font-header;
+    font-weight: normal;
+    font-size: 1.125em;
+    color: $font-color;
+}
+
+body {
+    font-family: $font-body;
+    font-size: 1em;
+    color: $font-color;
+}
+
+
 
 .hidden 
 {
@@ -22,7 +59,7 @@ body
 
 #html 
 {
-     scroll-behavior: smooth; 
+    scroll-behavior: smooth; 
 }
 
 
