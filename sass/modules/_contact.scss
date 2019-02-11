@@ -28,16 +28,43 @@ margin: 0px;
 
 #contactRight form button {
     border: none;
-    background: #7db9e8; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #7db9e8 0%, #2e79bf 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #7db9e8 0%,#2e79bf 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #7db9e8 0%,#2e79bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #4cb5c1; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4cb5c1 0%, #2e79bf 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4cb5c1 0%,#2e79bf 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4cb5c1 0%,#2e79bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     border-radius: 5px;
     height: 2.5em;
     margin-top: 2.5%;
+    margin-bottom: 5%;
     width: 18.3em;
     box-shadow: 1px 1px 5px $font-color;
     font-family: $font-body;
     font-size: 1em;
-    color: $font-color;
+    color: white;
+}
+
+#explore {
+    clear: both;
+    margin-top: 5%;
+    padding: 2%;
+    width: 100%;
+    background-color: $blue;
+    color: white;
+    
+}
+
+#explore h2 {
+    color: white;
+    text-align: center;
+}
+
+#explore ul{
+    text-align: center;
+}
+
+#explore ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }

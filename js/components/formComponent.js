@@ -24,6 +24,21 @@ export default {
         <button type="submit" name="submit">Submit</button>
 </form>
 </div>
+<div id="explore">
+    <h2>Why Choose Ontario</h2>
+
+    <ul>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.</p>
+        </li>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.</p>
+        </li>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.</p>
+        </li>
+    </ul>
+</div>
 
     </div>
     `,
