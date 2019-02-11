@@ -28,7 +28,7 @@ export default {
                 formData.append("email", this.input.email);
 
                 //do a fetch here and check creds on the back end
-                let url = `./includes/admin/sign-up.php`;
+                let url = `../includes/admin/sign-up.php`;
 
                 fetch(url, {
                     method: 'POST',
@@ -42,7 +42,7 @@ export default {
                         }else{
                             //if the back-end authentication works, then go to the main page
                             this.$emit("authenticated", true);
-                            this.$router.replace({name: "main"});
+                            this.$router.replace({name: "promotions"});
                         }
                     })
                 .catch(function(error){
