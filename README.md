@@ -2,7 +2,7 @@
 
 Find Yourself at Home. 
 
-Ontario is Canada's most populated province and is located in east-central Canada. It borders the United States and the Great Lakes. Home to the tallest tower in the western hemisphere and one of the seven natural wonders of the world, Ontario is the perfect destination for those who love exploring. 
+Ontario is Canada's most populated province and is located in east-central Canada. It borders the United States and the Great Lakes. Home to the tallest tower in the western hemisphere and one of the seven natural wonders of the world, Ontario is the perfect destination for those who love exploring. This website incorporates many interactive features and a video to bring awareness and promote tourism to the short tourism season of about 75 days (June to August) to Ontario. 
 
 ## Getting Started
 
