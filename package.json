@@ -1,8 +1,8 @@
 {
   "name": "pittis_pao_flomen_priestman_hause_midterm",
   "version": "1.0.0",
-  "description": "Website",
-  "main": "index.html",
+  "description": "Ontario Tourism",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +12,14 @@
   },
   "keywords": [
     "hackathon",
-    "midterm",
     "website",
-    "video"
+    "video",
+    "ontario",
+    "travel",
+    "canada"
   ],
   "author": "Soraya Pittis, Allison Pao, Jaclyn Flomen, Blake Hause, Jordan Priestman",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/spittis/pittis_pao_flomen_priestman_hause_midterm/issues"
   },
