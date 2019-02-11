@@ -23,10 +23,30 @@
     
 <main id="app">
 
-        <router-link :to="{ path: '/form'}">Form</router-link>
-        <router-link :to="{ path: '/promotions'}">Promotions</router-link>
+    <router-link :to="{ path: '/promotions'}"><img id="logo" src="images/OS_logo_blue.svg" width="200px"></router-link>
 
-    <router-view></router-view>
+        <nav role="navigation">
+                <div id="menuToggle">
+        <input id="checkbox" type="checkbox"/>
+                
+        <span></span>
+        <span></span>
+        <span></span>
+       
+    <ul id="menu">
+            <router-link :to="{ path: '/promotions'}"><li>Home</li></router-link>
+            <router-link :to="{ path: '/promotions'}"><li>Why</li></router-link>
+            <a href="index.html"><li>Get Involved</li></a>
+            <a href="index.html"><li>Explore</li></a>
+            <a href="index.html"><li>Destinations</li></a>
+            <router-link :to="{ path: '/form'}"><li>Sign Up</li></router-link>
+    </ul>
+
+    
+</div>
+</nav>
+
+    <router-view id="move"></router-view>
 
 
     
