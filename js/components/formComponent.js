@@ -1,6 +1,31 @@
 export default {
     template: `
-    <h1>Sign Up here!</h1>
+    <div>
+
+    <div id="contactLeft">
+    <img src="images/maidofthemist.jpg" alt="">
+</div>
+
+<div id="contactRight">
+<h1>Get In Touch</h1>
+<form action="sign-up.php" method="POST">
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" value="" placeholder="Country"><br><br>
+        
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="fname" value="" placeholder="First Name"><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="lname" value="" placeholder="Last Name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="" placeholder="Email Address"><br><br>
+
+        <button type="submit" name="submit">Submit</button>
+</form>
+</div>
+
+    </div>
     `,
 
     data() {

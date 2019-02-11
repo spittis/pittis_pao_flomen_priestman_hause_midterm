@@ -29,9 +29,21 @@
 
 //DESKTOP
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1279px) {
     #contactRight {
         margin-left: 4em; //might need to play more with for desktop
+        }
+    
+    #contactRight form {
+        margin-left: 3em; 
+    }
+}
+
+//DESKTOP x2
+
+@media (min-width: 1279px) {
+    #contactRight {
+        margin-left: 7em; //might need to play more with for desktop
         }
     
     #contactRight form {

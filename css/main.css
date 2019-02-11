@@ -10,9 +10,15 @@
 
   #contactRight form {
     margin-left: 1em; } }
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1279px) {
   #contactRight {
     margin-left: 4em; }
+
+  #contactRight form {
+    margin-left: 3em; } }
+@media (min-width: 1279px) {
+  #contactRight {
+    margin-left: 7em; }
 
   #contactRight form {
     margin-left: 3em; } }
@@ -52,7 +58,7 @@
   border-radius: 5px;
   height: 2.5em;
   margin-top: 2.5%;
-  width: 6.5em;
+  width: 18.3em;
   box-shadow: 1px 1px 5px #373535;
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 1em;
