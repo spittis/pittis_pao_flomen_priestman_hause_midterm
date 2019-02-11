@@ -7,8 +7,7 @@ export default {
         return {
             input : {
                 username: "",
-                password: "", 
-                email: ""
+                password: ""
             }
         }
     },
