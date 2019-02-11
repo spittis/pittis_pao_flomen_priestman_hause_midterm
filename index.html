@@ -26,9 +26,11 @@
         
         <router-link :to="{ path: '/promotions'}">Home</router-link>
         <router-link :to="{ path: '/form'}">Sign Up</router-link>
-
-    <router-view></router-view>
     
+    <transition name="fade" mode="out-in">
+        <router-view></router-view>
+    </transition>
+
 </main>
 
 
