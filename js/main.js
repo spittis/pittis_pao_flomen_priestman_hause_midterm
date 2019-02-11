@@ -1,7 +1,7 @@
 //Components
 
 import promotionsComponent from './components/promotionsComponent.js'; 
-import formComponent from './components/formComponent.js'
+import formComponent from './components/formComponent.js';
 
 
 const routes = [
@@ -15,7 +15,7 @@ const router = new VueRouter ({
 });
 
 const vm = new Vue ({
-    // el: '#app',
+    el: '#app',
 
     data: {
         message: "Hi from vue!",
@@ -42,7 +42,7 @@ const vm = new Vue ({
         },
 
         logout(){
-            this.$router.push({path: "/main"});
+            this.$router.push({path: "/promotions"});
             this.authenticated = false;
         },
 
@@ -55,14 +55,4 @@ const vm = new Vue ({
     router: router
 }).$mount("#app");
 
-//make the router check all of the routes and bounce back if we're not authenticated
-router.beforeEach((to, from, next) => {
-    console.log("router guard fired!");
-
-    if (vm.authenticated == false) {
-        next("/main");
-    }else{
-        next();
-    }
-});
 

@@ -28,7 +28,7 @@ export default {
                 formData.append("email", this.input.email);
 
                 //do a fetch here and check creds on the back end
-                let url = `./includes/admin/sign-up.php`;
+                let url = `../includes/admin/sign-up.php`;
 
                 fetch(url, {
                     method: 'POST',
