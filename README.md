@@ -1,7 +1,8 @@
-# Add Project Title Here
+# Ontario Summer
 
-Add project description here!
+Find Yourself at Home. 
 
+Ontario is Canada's most populated province and is located in east-central Canada. It borders the United States and the Great Lakes. Home to the tallest tower in the western hemisphere and one of the seven natural wonders of the world, Ontario is the perfect destination for those who love exploring. 
 
 ## Getting Started
 
@@ -48,4 +49,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* We were inspired by: [Organ Donation Ontario](https://beadonor.ca)
+* We gathered a lot of information from: [Ontario Travel](https://www.ontariotravel.net/en/explore?WT.mc_id=Ontario_Masterbrand_search_Google_G_SEM_text_Travel&gclid=Cj0KCQiAtP_iBRDGARIsAEWJA8jaBU5Jwm5Hd6JuFU0QW5FKXLjwPiYy48WY-ywhfc2yLHhMre3W6b8aAuarEALw_wcB)
