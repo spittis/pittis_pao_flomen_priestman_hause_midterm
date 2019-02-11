@@ -1,12 +1,12 @@
 //Components
 
-import mainComponent from './components/mainComponent.js'; 
+import promotionsComponent from './components/promotionsComponent.js'; 
 import formComponent from './components/formComponent.js'
 
 
 const routes = [
-    { path: '/', redirect: {name: 'main'}},
-    { path: '/main', name: 'main', component: mainComponent },
+    { path: '/', redirect: {name: 'promotions'}},
+    { path: '/promotions', name: 'promotions', component: promotionsComponent },
     { path: '/form', name: 'form', component: formComponent }
 ];
 

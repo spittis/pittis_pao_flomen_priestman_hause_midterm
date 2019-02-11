@@ -42,7 +42,7 @@ export default {
                         }else{
                             //if the back-end authentication works, then go to the main page
                             this.$emit("authenticated", true);
-                            this.$router.replace({name: "main"});
+                            this.$router.replace({name: "promotions"});
                         }
                     })
                 .catch(function(error){
