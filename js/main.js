@@ -1,60 +1,68 @@
-(() => {
-    // components go here
-    import promotionsComponent from './components/promotionsComponent.js'; // this is like doing a php include
-    import formComponent from './components/formComponent.js'
+//Components
 
-    // component is created first
-        const routes = [
-            { path: '/', redirect: {name:'promotions'}}, //want to redirect users to the promotions page
-            { path: '/promotions', name:'promotions', component: promotionsComponent },
-            { path: '/form', name: 'form', component: formComponent}, 
-        ];
-    
+import mainComponent from './components/mainComponent.js'; 
+import formComponent from './components/formComponent.js'
 
-    // then the router instance is created
-        const router = new VueRouter({
-            routes
-        });
-    
-    // then the vue instance is created
-        const vm = new Vue({
-        //el: '#app',
 
-            data: {
-                message: "sup from vue!",
+const routes = [
+    { path: '/', redirect: {name: 'main'}},
+    { path: '/main', name: 'main', component: mainComponent },
+    { path: '/form', name: 'form', component: formComponent }
+];
 
-            },
-    
-            created: function() {
-                console.log('parent is live');
-            },
-            
-            methods: {
-                logParent(message) {
-                    console.log("from the parent", message);
-                },
-    
-                logMainMessage(message) { //putting the message in the brackets is adding an argument 
-                    console.log("called from inside a child, lives in the parent", message);
-                },
+const router = new VueRouter ({
+    routes
+});
 
-                setAuthenticated(status) {
-                    this.authenticated = status;
-                },
+const vm = new Vue ({
+    // el: '#app',
 
-                logout() {
-                    this.authenticated = false;
-                }
+    data: {
+        message: "Hi from vue!",
+        authenticated : false,
+        administrator: false,
+        
+        mockAccount : {
+            username: "midterm",
+            password: "123"
+        },
 
-            },
-
-    components: {
-        'promotionsComponent': promotionsComponent,
-        'formComponent': formComponent
+        user: [],
+        curremtUser: {}
     },
 
-    
-    
-            router: router
-        }).$mount("#app"); //look for this element on the page, and that's where we're going to run vue stuff //mount it to a particular div and run all the vue stuff there
-    })();
+    created: function(){
+        console.log('hello hello');
+    },
+
+    methods: {
+
+        setAuthenticated(status){
+            this.authenticated = status;
+        },
+
+        logout(){
+            this.$router.push({path: "/main"});
+            this.authenticated = false;
+        },
+
+        setCurrentUser(user) {
+            //stub
+            console.log('hit setCurrentUser');
+        }
+    },
+
+    router: router
+}).$mount("#app");
+
+//make the router check all of the routes and bounce back if we're not authenticated
+router.beforeEach((to, from, next) => {
+    console.log("router guard fired!");
+
+    if (vm.authenticated == false) {
+        next("/main");
+    }else{
+        next();
+    }
+});
+
