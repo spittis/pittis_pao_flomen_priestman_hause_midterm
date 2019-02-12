@@ -146,6 +146,17 @@
   transform: none;
 }
 
+//Footer
+#socialMed {
+    text-align: center;
+    float: none;
+    margin-right: 2em;
+    margin-top: 2.5em;
+}
+
+#copyText {
+    text-align: center;
+ }
 
 
 }
@@ -256,6 +267,17 @@ padding-top: 4%;
     #explore {
         padding: 2%;
     }
+
+    #socialMed {
+        margin-right: 3em;
+        float: right;
+    }    
+
+    #copyText {
+        float: left; 
+        margin-left: 3em;
+        padding-top: 0.5em;
+     }
 }
 
 
@@ -329,6 +351,18 @@ border-bottom: 5px solid #46B5C2;
 }
 
 
+#socialMed {
+    margin-right: 3em;
+    float: right;
+}
+
+#copyText {
+    float: left; 
+    margin-left: 3em;
+    padding-top: 0.5em;
+ }
+
+
 }
 @media (min-width: 769px) and (max-width: 1279px) {
     #contactRight {
@@ -365,6 +399,16 @@ border-bottom: 5px solid #46B5C2;
         padding: 2% 2% 1% 2%;
 
     }
+    #socialMed {
+        margin-right: 3em;
+        float: right;
+    }
+
+    #copyText {
+        float: left; 
+        padding-top: 0.5em;
+     }
+
 }
 
 //DESKTOP x2
@@ -401,10 +445,18 @@ border-bottom: 5px solid #46B5C2;
     }
 
     #explore {
-        padding: 2% 2% 1% 2%;
-
-    
-
+        padding: 2% 2% 1% 2%;   
     }
+
+    #socialMed {
+        margin-right: 3em;
+        float: right;
+    }
+
+    #copyText {
+        float: left; 
+        margin-left: 5em;
+        padding-top: 0.5em;
+     }
 }
 
