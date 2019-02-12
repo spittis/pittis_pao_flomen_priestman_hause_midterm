@@ -23,7 +23,7 @@ export default {
         <label for="email">Email:</label><br>
         <input v-model="input.email" type="email" id="email" name="email" value="" placeholder="Email Address" required><br><br>
 
-        <button v-on:click="signup()" type="submit" name="submit">Submit</button>
+        <button @click.prevent="signup()" type="submit" name="submit">Submit</button>
 </form>
 </div>
 <div id="explore">
