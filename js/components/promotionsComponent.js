@@ -27,10 +27,6 @@ export default {
 </li>
     </ul>
 </div>
-
-<video width="100%" controls>
-<source src="" type="video/mp4">
-</video> 
     
 <div id="graphicDesignText">
 <div id="lightbox1">
