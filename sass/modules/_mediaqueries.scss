@@ -269,9 +269,14 @@ padding-top: 2%;
         padding: 2%;
     }
 
-    #socialMed {
+    socialMed {
         margin-right: 3em;
         float: right;
+        list-style: none;
+    }
+
+    #socialMed li {
+        display: inline;
     }    
 
     #copyText {
@@ -437,6 +442,11 @@ border-bottom: 5px solid #46B5C2;
     #socialMed {
         margin-right: 3em;
         float: right;
+        list-style: none;
+    }
+
+    #socialMed li {
+        display: inline;
     }
 
     #copyText {
@@ -514,9 +524,14 @@ border-bottom: 5px solid #46B5C2;
         padding: 2% 2% 1% 2%;   
     }
 
-    #socialMed {
+    socialMed {
         margin-right: 3em;
         float: right;
+        list-style: none;
+    }
+
+    #socialMed li {
+        display: inline;
     }
 
     #copyText {
