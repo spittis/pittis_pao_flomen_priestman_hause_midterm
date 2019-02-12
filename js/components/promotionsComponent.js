@@ -13,6 +13,8 @@ export default {
         </div>
 </div>
 
+
+
 <div id="explore">
     <h2 id="whyOntario">Why Choose Ontario</h2>
     <ul>
@@ -27,6 +29,11 @@ export default {
 </li>
     </ul>
 </div>
+
+<video width="100%" height="auto" controls>
+  <source src="images/video-ontario.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
     
 <div id="graphicDesignText">
 <div id="lightbox1">
