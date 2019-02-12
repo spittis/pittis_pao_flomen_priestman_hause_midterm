@@ -46,8 +46,8 @@
   #menuToggle span #mobileContact {
     display: block;
   }
-  #menuToggle span #desktopContact {
-    display: none;
+  #menuToggle span img#desktopContact {
+    display: none !important;
   }
   #menuToggle span #contactLeft {
     margin: 0px;
@@ -67,7 +67,7 @@
     margin-bottom: 0px;
   }
   #menuToggle span .goaway {
-    display: none;
+    display: none !important;
   }
 
   #menuToggle input:checked ~ span {
@@ -176,8 +176,8 @@
     display: block;
   }
 
-  #desktopContact {
-    display: none;
+  img#desktopContact {
+    display: none !important;
   }
 
   #contactLeft {

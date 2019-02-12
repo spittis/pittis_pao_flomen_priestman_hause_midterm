@@ -61,8 +61,8 @@
         display: block;
     }
 
-    #desktopContact {
-        display: none;
+    img#desktopContact {
+        display: none !important;
     }
 
     #contactLeft {
@@ -87,7 +87,7 @@
     }
 
     .goaway{
-        display:none;
+        display:none !important;
     }
 }
 
@@ -239,8 +239,8 @@ padding-top: 4%;
         display: block;
     }
 
-    #desktopContact {
-        display: none;
+    img#desktopContact {
+        display: none !important;
     }
     #contactLeft {
         margin: 0px;
