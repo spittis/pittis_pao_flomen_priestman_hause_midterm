@@ -1,6 +1,12 @@
 export default {
     template: `
-        <h2>You're on the Promotions page</h2>
+<div id="promo">
+        <!--<h2>You're on the Promotions page</h2>-->
+
+    
+    
+    
+ </div>
     `,
 
     data() {
