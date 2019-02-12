@@ -94,3 +94,35 @@
     margin-left: 30%;
     margin-right: 30%;
   }
+
+.newsletter
+{
+    background: $darkBlue;
+    padding: 1%;
+}
+
+#daNews
+{
+    color: white;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#daNewsButton
+{
+    border: none;
+    border-radius: 5px;
+    height: 2.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    box-shadow: 1px 1px 5px $font-color;
+    font-family: $font-header;
+    font-size: 1em;
+    color: black;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 45%;
+    padding-right: 5%;
+}
