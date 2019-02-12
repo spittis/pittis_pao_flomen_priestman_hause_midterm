@@ -48,10 +48,11 @@
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
+            }
 
 #contactRight {
         margin-left: 3em;
-    }
+        }
     
     #contactRight form {
         margin-left: 0em;
@@ -61,17 +62,8 @@
         display: block;
     }
 
-    img#desktopContact {
+    #desktopContact {
         display: none;
-    }
-
-    #contactLeft #desktopContact {
-        display: none !important;
-    }
-
-    .goaway {
-        display: none;
-        visibility: hidden;
     }
 
     #contactLeft {
@@ -95,10 +87,6 @@
         margin-bottom: 0px;
     }
 
-    .goaway{
-        display:none !important;
-    }
-}
 
 
 
@@ -287,7 +275,7 @@ padding-top: 4%;
 
 #logo
 {
-    width: 10%;
+    width: 20%;
     margin-top: 2%;
     margin-left: 2%;
    // position: relative;
