@@ -7,7 +7,7 @@ export default {
         <img id="bigmount" src="images/BG_HeroImage.jpg" alt="mountain background" width="100%">
         <img class="animated slideInUp" id="popUp" src="images/Ontario_Header.svg" width="100%">
         <img id="onTop" src="images/x-axis_bg.png" width="100%">
-        <div class="centered">
+        <div class="centered" style="top: 500px">
         <h2 id="tagline">Find Yourself At Home</h2>
         <router-link :to="{ path: '/form'}"><button id="signButton">Sign Up</button></router-link>
         </div>
