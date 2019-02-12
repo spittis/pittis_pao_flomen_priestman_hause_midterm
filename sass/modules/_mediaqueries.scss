@@ -197,6 +197,30 @@
     text-align: center;
  }
 
+ #logotext1 h2
+{
+    font-size: 2em;
+    padding-top: 5%;
+}
+
+#logotext1 p
+{
+    font-size: 1.2em;
+    padding: 5%;
+}
+
+    #logotext2 h2
+{
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+#logotext2 p
+{
+    font-size: 1.2em;
+    margin: 5%;
+}
+
 
 }
 
@@ -355,25 +379,33 @@ padding-top: 2%;
     #logotext1 h2
     {
         font-size: 1.5em;
-        padding-top: 5%;
+        padding-top: 10%;
     }
     
     #logotext1 p
     {
         font-size: 0.9em;
-        padding: 2%;
+        padding: 10%;
     }
     
         #logotext2 h2
     {
         font-size: 1.5em;
-        padding-top: 2%;
+        margin-top: 15%;
     }
     
     #logotext2 p
     {
         font-size: 0.9em;
-        padding: 5%;
+        padding:6%;
+    }
+
+    #seaStudios {
+        object-fit: cover;
+    }
+
+    #mi {
+        object-fit: cover;
     }
 }
 
@@ -388,24 +420,34 @@ padding-top: 2%;
     {
         font-size: 2em;
         padding-top: 10%;
+        margin-top: 15%;
     }
     
     #logotext1 p
     {
         font-size: 1.2em;
-        padding: 5%;
+        padding: 15%;
     }
     
         #logotext2 h2
     {
         font-size: 2em;
-        padding-top: 10%;
+        margin-top: 15%;
+        padding-top: 15%;
     }
     
     #logotext2 p
     {
         font-size: 1.2em;
-        padding: 5%;
+        margin: 15%;
+    }
+
+    #seaStudios {
+        object-fit: cover;
+    }
+
+    #mi {
+        object-fit: cover;
     }
 
     .square {
@@ -609,14 +651,22 @@ border-bottom: 5px solid #46B5C2;
          #logotext2 h2
      {
          font-size: 2em;
-         padding-top: 10%;
+         margin-top: 7%;
      }
      
      #logotext2 p
      {
          font-size: 1.2em;
-         padding: 5%;
+         margin: 10%;
      }
+
+     #seaStudios {
+        object-fit: cover;
+    }
+
+    #mi {
+        object-fit: cover;
+    }
 
 }
 
@@ -749,13 +799,21 @@ border-bottom: 5px solid #46B5C2;
     #logotext2 h2
 {
     font-size: 2em;
-    padding-top: 10%;
+    margin-top: 15%;
 }
 
 #logotext2 p
 {
     font-size: 1.2em;
-    padding: 5%;
+    margin: 10%;
+}
+
+#seaStudios {
+    object-fit: cover;
+}
+
+#mi {
+    object-fit: cover;
 }
 
 }
