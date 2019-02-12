@@ -99,7 +99,16 @@
     text-decoration: none; }
 
   #menuToggle input:checked ~ ul {
-    transform: none; } }
+    transform: none; }
+
+  #socialMed {
+    text-align: center;
+    float: none;
+    margin-right: 2em;
+    margin-top: 2.5em; }
+
+  #copyText {
+    text-align: center; } }
 @media (min-width: 480px) and (max-width: 768px) {
   #menutoggle {
     display: none; }
@@ -165,7 +174,16 @@
     margin-left: 2.5%; }
 
   #explore {
-    padding: 2%; } }
+    padding: 2%; }
+
+  #socialMed {
+    margin-right: 3em;
+    float: right; }
+
+  #copyText {
+    float: left;
+    margin-left: 3em;
+    padding-top: 0.5em; } }
 @media (min-width: 769px) {
   /*NAVIGATION*/
   #menutoggle {
@@ -203,7 +221,16 @@
     padding-top: 4%; }
 
   #menu li:hover {
-    border-bottom: 5px solid #46B5C2; } }
+    border-bottom: 5px solid #46B5C2; }
+
+  #socialMed {
+    margin-right: 3em;
+    float: right; }
+
+  #copyText {
+    float: left;
+    margin-left: 3em;
+    padding-top: 0.5em; } }
 @media (min-width: 769px) and (max-width: 1279px) {
   #contactRight {
     margin-left: 4em; }
@@ -229,7 +256,15 @@
     margin-left: 2.5%; }
 
   #explore {
-    padding: 2% 2% 1% 2%; } }
+    padding: 2% 2% 1% 2%; }
+
+  #socialMed {
+    margin-right: 3em;
+    float: right; }
+
+  #copyText {
+    float: left;
+    padding-top: 0.5em; } }
 @media (min-width: 1279px) {
   #contactRight {
     margin-left: 7.75em; }
@@ -255,8 +290,25 @@
     margin-left: 2.5%; }
 
   #explore {
-    padding: 2% 2% 1% 2%; } }
+    padding: 2% 2% 1% 2%; }
+
+  #socialMed {
+    margin-right: 3em;
+    float: right; }
+
+  #copyText {
+    float: left;
+    margin-left: 5em;
+    padding-top: 0.5em; } }
 /* LOGO */
+#socialMed li {
+  list-style: none;
+  display: inline;
+  margin-right: 0.75em; }
+
+#socialMed li a img {
+  width: 2em; }
+
 #contactRight {
   float: left; }
 
