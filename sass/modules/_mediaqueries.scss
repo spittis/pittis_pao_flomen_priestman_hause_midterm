@@ -5,9 +5,10 @@
 
     #logo
     {
-        width: 15%;
+        width: 70%;
         margin-left: 3%;
-        margin-top: 3%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
 
 
@@ -110,7 +111,8 @@
   position: fixed;
   margin: -100px 0 0 -180px;
   width: 200px;
-  padding-top: 100px;
+  padding-top: 75px;
+  padding-bottom: 25px;
   background: #46B5C2;
   list-style-type: none;
   //-webkit-font-smoothing: antialiased;
@@ -122,9 +124,10 @@
 
 #menu li
 {
-  padding: 15px;
-  font-weight: bold;
-  font-size: 1.3em;
+  padding: 15px 15px 10px 0px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -143,6 +146,17 @@
   transform: none;
 }
 
+//Footer
+#socialMed {
+    text-align: center;
+    float: none;
+    margin-right: 2em;
+    margin-top: 2.5em;
+}
+
+#copyText {
+    text-align: center;
+ }
 
 
 }
@@ -165,9 +179,9 @@
 
     #logo
     {
-        width: 25%;
-        margin-top: 6%;
-        margin-left: 2%;
+        width: 35%;
+        margin-top: 2%;
+        margin-left: 4%;
        // position: relative;
         float: left;
         z-index: 1;
@@ -189,7 +203,7 @@
 
 #menu li
 {
-padding: 5px;
+padding: 5px 10px 0px 10px;
 display: block;
 color: black;
 font-weight: lighter;
@@ -200,6 +214,7 @@ font-size: 80%;
 //padding-top: 70px;
 font-weight: bold;
 font-size: 1em;
+border-bottom: 5px solid white;
 }
 
 
@@ -214,7 +229,7 @@ z-index: 1;
 text-align: center;
 float: right;
 padding-right: 8%;
-padding-top: 4%;
+padding-top: 2%;
 }
 
 #menu li:hover{
@@ -253,6 +268,17 @@ padding-top: 4%;
     #explore {
         padding: 2%;
     }
+
+    #socialMed {
+        margin-right: 3em;
+        float: right;
+    }    
+
+    #copyText {
+        float: left; 
+        margin-left: 3em;
+        padding-top: 0.5em;
+     }
 }
 
 
@@ -273,8 +299,9 @@ padding-top: 4%;
 #logo
 {
     width: 20%;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 4%;
    // position: relative;
     float: left;
     z-index: 1;
@@ -296,14 +323,13 @@ display:none;
 
 #menu li
 {
-padding: 5px;
+padding: 5px 5px 0px 5px;
 display: block;
 color: black;
 text-align: center;
 float: left;
-//width: 18%;
-//padding-top: 70px;
 font-weight: bold;
+border-bottom: 5px solid white;
 }
 
 
@@ -317,17 +343,63 @@ z-index: 1;
 //width: 100%;
 text-align: center;
 float: right;
-padding-right: 8%;
-padding-top: 4%;
-}
+padding-right: 8%;}
 
 #menu li:hover{
 border-bottom: 5px solid #46B5C2;
 }
 
 
+#socialMed {
+    margin-right: 3em;
+    float: right;
+}
+
+#copyText {
+    float: left; 
+    margin-left: 3em;
+    padding-top: 0.5em;
+ }
+
+
 }
 @media (min-width: 769px) and (max-width: 1279px) {
+    #checkbox
+{
+display:none;
+}
+
+#menu li
+{
+padding: 10px;
+display: block;
+color: black;
+text-align: center;
+float: left;
+font-weight: bold;
+font-size: 1.1em;
+margin-right: 1em;
+
+}
+
+
+#menu{
+list-style-type: none;
+z-index: 1;
+text-align: center;
+float: right;
+padding-right: 4%;
+padding-top: 3%;
+padding-bottom: 1%;
+}
+
+#menu li:hover{
+border-bottom: 5px solid #46B5C2;
+}
+
+    
+    
+    
     #contactRight {
         margin-left: 4em; //might need to play more with for desktop
         }
@@ -362,11 +434,52 @@ border-bottom: 5px solid #46B5C2;
         padding: 2% 2% 1% 2%;
 
     }
+    #socialMed {
+        margin-right: 3em;
+        float: right;
+    }
+
+    #copyText {
+        float: left; 
+        padding-top: 0.5em;
+     }
+
 }
 
 //DESKTOP x2
 
 @media (min-width: 1279px) {
+    #checkbox
+    {
+    display:none;
+    }
+    
+    #menu li
+    {
+    padding: 10px;
+    display: block;
+    color: black;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    }
+    
+    
+    #menu{
+    list-style-type: none;
+    z-index: 1;
+    text-align: center;
+    float: right;
+    padding-right: 8%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    }
+    
+    #menu li:hover{
+    border-bottom: 5px solid #46B5C2;
+    }
+    
     #contactRight {
         margin-left: 7.75em; //might need to play more with for desktop
         }
@@ -398,10 +511,18 @@ border-bottom: 5px solid #46B5C2;
     }
 
     #explore {
-        padding: 2% 2% 1% 2%;
-
-    
-
+        padding: 2% 2% 1% 2%;   
     }
+
+    #socialMed {
+        margin-right: 3em;
+        float: right;
+    }
+
+    #copyText {
+        float: left; 
+        margin-left: 5em;
+        padding-top: 0.5em;
+     }
 }
 
