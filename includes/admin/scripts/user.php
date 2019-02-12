@@ -27,6 +27,19 @@ function createUser($firstname, $lastname, $email, $country){
             return $message;
         }
 
+
+        $update_query = "INSERT INTO tbl_users (user_firstname, user_lastname, user_email, user_country, user_subscribe, user_lastupdate, user_ip)
+        VALUES ('firstname', 'lastname', 'email', 'country')
+        ON DUPLICATE KEY UPDATE
+        user_firstname = values(firstname),
+        user_lastname = values(lastname),
+        user_country = values(country);";
+
+
+
+
+
+
    $create_user_query = 'INSERT INTO tbl_users(user_firstname,user_lastname,user_email,user_country)';
 
    $create_user_query .= ' VALUES(:firstname,:lastname,:email,:country)';
