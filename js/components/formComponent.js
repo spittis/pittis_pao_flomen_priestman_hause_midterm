@@ -30,15 +30,15 @@ export default {
     <h2>Why Choose Ontario</h2>
 
     <ul>
-        <li><a>Explore 1</a>
-            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.<br><br></p>
-        </li>
-        <li><a>Explore 1</a>
-            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.<br><br></p>
-        </li>
-        <li><a>Explore 1</a>
-            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.<br><br></p>
-        </li>
+    <li><a>POSITIVE</a>
+    <p>Ontario Tourism aims to share with <br>the world just how beautiful Ontario is! <br>We are constantly finding new things<br> to love about Ontario.<br> Come see for yourself!<br><br></p>
+</li>
+<li><a>EXCITING</a>
+    <p>There are always new and exciting <br>activities taking place in Ontario <br>that we would love to share! There is no<br> time like the present to come and <br>find excitement!<br><br></p>
+</li>
+<li><a>INVITING</a>
+    <p>Ontario is one of the most <br>inclusive places as everyone is welcome! <br>The door is always open for new and <br>returning residents and visitors. <br>The more the merrier!<br><br></p>
+</li>
     </ul>
 </div>
 
