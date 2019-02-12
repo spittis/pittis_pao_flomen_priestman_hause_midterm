@@ -1,13 +1,12 @@
 <?php 
     require_once('scripts/config.php');
     
-    if(isset($_POST['submit'])){
     $firstname = trim($_POST['firstname']);
     $lastname = trim($_POST['lastname']);
     $email = trim($_POST['email']);
     $country = trim($_POST['country']);
        
-    }
+
 
 
     if(empty($_POST['country']) || empty($_POST['firstname']) || empty($_POST['lastname']) || empty($_POST['email'])){
@@ -18,7 +17,7 @@
         $lastname = $_POST['lastname'];
         $email = $_POST['email'];
 
-        var_dump();
+        // var_dump();
 
         $result = createUser($country, $firstname, $lastname, $email);
     }
