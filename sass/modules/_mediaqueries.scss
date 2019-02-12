@@ -125,6 +125,7 @@
             padding-bottom: 5%;
             padding-top: 5%;
             margin-bottom: 0px;
+            margin-top: 0%;  
         }
 
 
@@ -276,7 +277,6 @@ font-size: 80%;
 //padding-top: 70px;
 font-weight: bold;
 font-size: 1em;
-border-bottom: 5px solid white;
 }
 
 
@@ -329,6 +329,7 @@ padding-top: 2%;
     
         #explore {
             padding: 2%;
+            margin-top: 0%;  
         }
 
     #socialMed {
@@ -472,7 +473,6 @@ color: black;
 text-align: center;
 float: left;
 font-weight: bold;
-border-bottom: 5px solid white;
 }
 
 
@@ -576,9 +576,10 @@ border-bottom: 5px solid #46B5C2;
     #explore {
         padding: 2% 2% 1% 2%;
         margin-left: 0em; 
-        margin-right: 1em;   
+        margin-right: 1em; 
+        margin-top: 0%;  
     }
-    
+
     #socialMed {
         margin-right: 3em;
         float: right;
@@ -687,7 +688,8 @@ border-bottom: 5px solid #46B5C2;
         #explore {
             padding: 2% 2% 1% 2%;
             margin-left: 0em; 
-            margin-right: 1em;   
+            margin-right: 1em;
+            margin-top: 0%;     
         }
 
     #socialMed {
