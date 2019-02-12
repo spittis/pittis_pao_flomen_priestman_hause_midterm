@@ -3,12 +3,51 @@
 
 @media (max-width: 479px) {
 
+    // #onTop
+    // {
+    //     display:none;
+    // }
+
+    // #bigmount
+    // {
+    //     display:none;
+    // }
+
+    .square {
+        width: 100%;
+        padding-bottom : 100%; 
+    }
+
+    #popUp
+    {
+      top: 10%;
+      left: 0;
+      width: 40%;
+      margin-left: 30%;
+      margin-right: 30%;
+    }
+
+    #tagline
+    {
+        font-size: 1em;
+        padding-top: 30%;
+    }
+
     #logo
     {
         width: 70%;
         margin-left: 3%;
         margin-top: 4%;
         margin-bottom: 4%;
+    }
+
+    #signButton
+    {
+      height: 3em;
+      margin-top: 20%;
+      margin-bottom: 1em;
+      width: 7em;
+      font-size: 0.4em;
     }
 
 
@@ -172,6 +211,29 @@
 
 @media (min-width: 480px) and (max-width: 768px) {
 
+    #popUp
+    {
+      top: 10%;
+      left: 0;
+      width: 40%;
+      margin-left: 30%;
+      margin-right: 30%;
+    }
+
+    #signButton
+    {
+      height: 2.5em;
+      margin-top: 2.5%;
+      margin-bottom: 3em;
+      width: 18.5em;
+      font-size: 1em;
+    }
+
+    #tagline
+    {
+        font-size: 1.7em;
+    }
+
     #menutoggle
     {
         display:none;
@@ -284,6 +346,35 @@ padding-top: 2%;
         margin-left: 3em;
         padding-top: 0.5em;
      }
+
+     .square {
+        width: 50%;
+        padding-bottom : 50%; 
+    }
+
+    #logotext1 h2
+    {
+        font-size: 1.5em;
+        padding-top: 5%;
+    }
+    
+    #logotext1 p
+    {
+        font-size: 0.9em;
+        padding: 2%;
+    }
+    
+        #logotext2 h2
+    {
+        font-size: 1.5em;
+        padding-top: 2%;
+    }
+    
+    #logotext2 p
+    {
+        font-size: 0.9em;
+        padding: 5%;
+    }
 }
 
 
@@ -292,6 +383,53 @@ padding-top: 2%;
 //DESKTOP
 
 @media (min-width: 769px) {
+
+    #logotext1 h2
+    {
+        font-size: 2em;
+        padding-top: 10%;
+    }
+    
+    #logotext1 p
+    {
+        font-size: 1.2em;
+        padding: 5%;
+    }
+    
+        #logotext2 h2
+    {
+        font-size: 2em;
+        padding-top: 10%;
+    }
+    
+    #logotext2 p
+    {
+        font-size: 1.2em;
+        padding: 5%;
+    }
+
+    .square {
+        width: 50%;
+        padding-bottom : 50%; 
+    }
+
+    #popUp
+    {
+      top: 20%;
+      left: 0;
+      width: 40%;
+      margin-left: 30%;
+      margin-right: 30%;
+    }
+
+    #signButton
+    {
+      height: 2.5em;
+      margin-top: 2.5%;
+      margin-bottom: 3em;
+      width: 18.5em;
+      font-size: 1em;
+    }
 
 
 /*NAVIGATION*/
@@ -456,6 +594,30 @@ border-bottom: 5px solid #46B5C2;
         padding-top: 0.5em;
      }
 
+     #logotext1 h2
+     {
+         font-size: 2em;
+         padding-top: 10%;
+     }
+     
+     #logotext1 p
+     {
+         font-size: 1.2em;
+         padding: 5%;
+     }
+     
+         #logotext2 h2
+     {
+         font-size: 2em;
+         padding-top: 10%;
+     }
+     
+     #logotext2 p
+     {
+         font-size: 1.2em;
+         padding: 5%;
+     }
+
 }
 
 //DESKTOP x2
@@ -543,5 +705,58 @@ border-bottom: 5px solid #46B5C2;
         margin-left: 5em;
         padding-top: 0.5em;
      }
+
+     #tagline
+     {
+         font-size: 3em;
+     }
+
+     #signButton
+     {
+       height: 2.5em;
+       margin-top: 2.5%;
+       margin-bottom: 3em;
+       width: 18.5em;
+       font-size: 1em;
+     }
+
+     #popUp
+     {
+       top: 30%;
+       left: 0;
+       width: 40%;
+       margin-left: 30%;
+       margin-right: 30%;
+     }
+
+     .square {
+        width: 50%;
+        padding-bottom : 50%; 
+    }
+
+    #logotext1 h2
+{
+    font-size: 2em;
+    padding-top: 10%;
+}
+
+#logotext1 p
+{
+    font-size: 1.2em;
+    padding: 5%;
+}
+
+    #logotext2 h2
+{
+    font-size: 2em;
+    padding-top: 10%;
+}
+
+#logotext2 p
+{
+    font-size: 1.2em;
+    padding: 5%;
+}
+
 }
 

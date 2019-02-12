@@ -3,7 +3,8 @@ export default {
 <div id="promo">
 
 <div id="promoHeader" class="container">
-        <img src="images/BG_HeroImage.jpg" alt="mountain background" width="100%">
+        <!--<img id="smallmount" class="hidden" src="images/Mobile_BG.jpg alt="mountain background width="100%>-->
+        <img id="bigmount" src="images/BG_HeroImage.jpg" alt="mountain background" width="100%">
         <img class="animated slideInUp" id="popUp" src="images/Ontario_Header.svg" width="100%">
         <img id="onTop" src="images/x-axis_bg.png" width="100%">
         <div class="centered">
@@ -13,7 +14,7 @@ export default {
 </div>
 
 <div id="explore">
-    <h2 class="hide" id="whyOntario">Why Choose Ontario</h2>
+    <h2 id="whyOntario">Why Choose Ontario</h2>
     <ul>
     <li><a>POSITIVE</a>
     <p>Ontario Tourism aims to share with <br>the world just how beautiful Ontario is! <br>We are constantly finding new things<br> to love about Ontario.<br> Come see for yourself!<br><br></p>
@@ -38,7 +39,7 @@ export default {
 </div>
 
     <div class="square squares">
-    <div class="content contents" id="logotext2"><h2>Explore The Great Outdoors</h2><p>A paragraph goes here!</p></div>
+    <div class="content contents" id="logotext2"><h2>Explore The Great Outdoors</h2><p>Ontario is home to an incredible landscape of pristine lakes, rivers, and forests, which are made easily accessible by the provincial and national parks spread across the province. Families often enjoy the front country campgrounds, many of which are located on popular lakes with beaches.</p></div>
     </div>
     <div class="square noweb">
     <img class="logo content rs contents rss" id="seaStudios" src="images/Desktop_Camping.jpg" alt="Sea Studios Logo" title="Sea Studio Logo">
@@ -62,6 +63,8 @@ export default {
     },
 
     methods: {
+
+        
 
     }
 }

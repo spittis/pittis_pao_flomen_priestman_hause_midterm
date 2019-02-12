@@ -1,4 +1,4 @@
-window.onload = function(){
+window.scroll = function(){
     //console.log("Hello World");
     
   
@@ -7,7 +7,7 @@ window.onload = function(){
         handler:function(direction){
             this.element.classList.add("slideInUp");
             this.element.classList.add("animated");
-            this.element.classList.add("visible");
+           // this.element.classList.add("visible");
         },
         offset: "50%"
     })
