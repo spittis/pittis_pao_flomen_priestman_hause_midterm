@@ -22,6 +22,7 @@
 
         $result = createUser($country, $firstname, $lastname, $email);
     }
+
         echo json_encode($message);
 
 
