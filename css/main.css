@@ -180,7 +180,7 @@
   #explore {
     padding: 2%; }
 
-  socialMed {
+  #socialMed {
     margin-right: 3em;
     float: right;
     list-style: none; }
@@ -287,10 +287,10 @@
     display: block; }
 
   #explore ul li {
-    margin-left: 2.5%; }
+    margin-left: 2%; }
 
   #explore {
-    padding: 2% 2% 1% 2%; }
+    padding: 1% 2% 1% 2%; }
 
   #socialMed {
     margin-right: 3em;
@@ -354,7 +354,7 @@
   #explore {
     padding: 2% 2% 1% 2%; }
 
-  socialMed {
+  #socialMed {
     margin-right: 3em;
     float: right;
     list-style: none; }
