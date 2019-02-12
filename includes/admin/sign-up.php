@@ -19,7 +19,26 @@
         $message = $result;
     }
 }
+
+if(isset($_POST['submit'])){
+    $to = $_POST['email']; // this is your Email address
+    $from = "blakealexhause@gmail.com"; // this is the sender's Email address
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $subject = "Subscription.";
+    $message = "Thank you for subscribing!";
+    // $subject2 = "Copy of your form submission";
+    // $message = $firstname . " " . $lastname . " wrote the following:" . "\n\n" . $_POST['message'];
+    // $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    $headers = "From:" . $from;
+    // $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Your are now Subscribed! Thank you " . $firstname . ", you will recieve an email shortly!";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
 ?>
+
 
 
 
@@ -45,7 +64,7 @@
  <input type="text" id="lastname" name="lastname" value="">
  <label for="email">Email:</label>
  <input type="email" id="email" name="email" value="">
- <button type="submit" name="submit">Sign Up</button>
+ <button type="submit" name="submit">Subscribe</button>
  </form>
     
 </body>
