@@ -3,7 +3,7 @@ export default {
     <div>
 
     <div id="contactLeft">
-    <img src="images/Desktop_Contact_PG.jpg" alt="" id="desktopContact">
+    <img src="images/Desktop_Contact_PG.jpg" alt="" id="desktopContact" class="goaway">
     <img src="images/Mobile_Contact_PG.jpg" alt="" id="mobileContact">
 </div>
 
