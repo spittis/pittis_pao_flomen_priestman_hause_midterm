@@ -9,7 +9,7 @@ export default {
 
 <div id="contactRight">
 <h1>Get In Touch</h1>
-<form action="sign-up.php" method="POST">
+<form action="./includes/admin/sign-up.php" method="POST">
         <label for="country">Country:</label><br>
         <input type="text" id="country" name="country" value="" placeholder="Country"><br><br>
         
