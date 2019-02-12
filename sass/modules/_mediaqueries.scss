@@ -1,3 +1,4 @@
+
 //MOBILE
 
 @media (max-width: 479px) {
@@ -47,7 +48,50 @@
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
+
+#contactRight {
+        margin-left: 3em;
+    }
+    
+    #contactRight form {
+        margin-left: 0em;
+    }
+
+    #mobileContact {
+        display: block;
+    }
+
+    #desktopContact {
+        display: none;
+    }
+
+    #contactLeft {
+        margin: 0px;
+        }
+        
+    #contactLeft img {
+            float: left;
+            width: 100%;
+            margin: 0px;
+        }
+    
+    #explore ul li {
+        margin-left: 0px;
+    }
+
+    #explore {
+        padding-right: 4%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        margin-bottom: 0px;
+    }
+
+    .goaway{
+        display:none;
+    }
 }
+
+
 
 
 #menuToggle input:checked ~ span
@@ -183,6 +227,38 @@ padding-top: 4%;
     border-bottom: 5px solid #46B5C2;
 }
 
+    #contactRight {
+        margin-left: 7.75em;
+        }
+    
+    #contactRight form {
+        margin-left: 2.25em;
+    }
+
+    #mobileContact {
+        display: block;
+    }
+
+    #desktopContact {
+        display: none;
+    }
+    #contactLeft {
+        margin: 0px;
+        }
+        
+    #contactLeft img {
+            float: left;
+            width: 100%;
+            margin: 0px;
+        }
+    
+    #explore ul li {
+        margin-left: 2.5%;
+    }
+
+    #explore {
+        padding: 2%;
+    }
 }
 
 
@@ -257,3 +333,81 @@ border-bottom: 5px solid #46B5C2;
 
 
 }
+@media (min-width: 769px) and (max-width: 1279px) {
+    #contactRight {
+        margin-left: 4em; //might need to play more with for desktop
+        }
+    
+    #contactRight form {
+        margin-left: 3em; 
+    }
+
+    #contactLeft {
+        margin: 0px;
+        }
+        
+    #contactLeft img {
+            float: left;
+            width: 50%;
+            margin: 0px;
+            }
+
+    #mobileContact {
+        display: none;
+    }
+
+    #desktopContact {
+        display: block;
+    }
+
+    #explore ul li {
+        margin-left: 2.5%;
+    }
+
+    #explore {
+        padding: 2% 2% 1% 2%;
+
+    }
+}
+
+//DESKTOP x2
+
+@media (min-width: 1279px) {
+    #contactRight {
+        margin-left: 7.75em; //might need to play more with for desktop
+        }
+    
+    #contactRight form {
+        margin-left: 2em; 
+    }
+
+    #mobileContact {
+        display: none;
+    }
+
+    #desktopContact {
+        display: block;
+    }
+
+    #contactLeft {
+        margin: 0px;
+        }
+        
+    #contactLeft img {
+            float: left;
+            width: 50%;
+            margin: 0px;
+        }
+
+    #explore ul li {
+        margin-left: 2.5%;
+    }
+
+    #explore {
+        padding: 2% 2% 1% 2%;
+
+    
+
+    }
+}
+
