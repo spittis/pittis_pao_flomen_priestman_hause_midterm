@@ -4,14 +4,16 @@ export default {
 
 <div id="promoHeader" class="container">
         <img src="images/BG_HeroImage.jpg" alt="mountain background" width="100%">
+        <img class="animated slideInUp" id="popUp" src="images/Ontario_Header.svg" width="100%">
+        <img id="onTop" src="images/x-axis_bg.png" width="100%">
         <div class="centered">
         <h2 id="tagline">Find Yourself At Home</h2>
-        <button><router-link :to="{ path: '/form'}">Sign Up</router-link></button>
+        <router-link :to="{ path: '/form'}"><button id="signButton">Sign Up</button></router-link>
         </div>
 </div>
 
 <div id="explore">
-    <h2>Why Choose Ontario</h2>
+    <h2 class="hide" id="whyOntario">Why Choose Ontario</h2>
 
     <ul>
         <li><a>Explore 1</a>
@@ -46,11 +48,7 @@ export default {
 </div>
 
 <div id="destination">
-    <img class="destinations" src="images/Desktop_Docks.jpg" alt="docks">
-    <img class="destinations" src="images/Desktop_Concert.jpg" alt="concert">
-    <img class="destinations" src="images/Desktop_Cliffs.jpg" alt="cliffs">
-    <img class="destinations" src="images/Desktop_Fair.jpg" alt="fair">
-    <img class="destinations" src="images/Desktop_Cityscape.jpg" alt="cityscape">
+    <img class="destinations" src="images/Desktop_Docks.jpg" alt="docks"><img class="destinations" src="images/Desktop_Concert.jpg" alt="concert"><img class="destinations" src="images/Desktop_Cliffs.jpg" alt="cliffs"><img class="destinations" src="images/Desktop_Fair.jpg" alt="fair"><img class="destinations" src="images/Desktop_Cityscape.jpg" alt="cityscape">
 
 
 </div>
