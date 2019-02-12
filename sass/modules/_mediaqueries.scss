@@ -77,16 +77,16 @@
             margin: 0px;
         }
     
-    #explore ul li {
-        margin-left: 0px;
-    }
-
-    #explore {
-        padding-right: 4%;
-        padding-bottom: 5%;
-        padding-top: 5%;
-        margin-bottom: 0px;
-    }
+        #explore ul li {
+            margin-left: 0px;
+        }
+    
+        #explore {
+            padding-right: 4%;
+            padding-bottom: 5%;
+            padding-top: 5%;
+            margin-bottom: 0px;
+        }
 
 
 #menuToggle input:checked ~ span
@@ -261,17 +261,22 @@ padding-top: 2%;
             margin: 0px;
         }
     
-    #explore ul li {
-        margin-left: 2.5%;
-    }
-
-    #explore {
-        padding: 2%;
-    }
+        #explore ul li {
+            margin-left: 2.5%;
+        }
+    
+        #explore {
+            padding: 2%;
+        }
 
     #socialMed {
         margin-right: 3em;
         float: right;
+        list-style: none;
+    }
+
+    #socialMed li {
+        display: inline;
     }    
 
     #copyText {
@@ -432,11 +437,18 @@ border-bottom: 5px solid #46B5C2;
 
     #explore {
         padding: 2% 2% 1% 2%;
-
+        margin-left: 0em; 
+        margin-right: 1em;   
     }
+    
     #socialMed {
         margin-right: 3em;
         float: right;
+        list-style: none;
+    }
+
+    #socialMed li {
+        display: inline;
     }
 
     #copyText {
@@ -506,17 +518,24 @@ border-bottom: 5px solid #46B5C2;
             margin: 0px;
         }
 
-    #explore ul li {
-        margin-left: 2.5%;
-    }
-
-    #explore {
-        padding: 2% 2% 1% 2%;   
-    }
+        #explore ul li {
+            margin-left: 2.5%;
+        }
+    
+        #explore {
+            padding: 2% 2% 1% 2%;
+            margin-left: 0em; 
+            margin-right: 1em;   
+        }
 
     #socialMed {
         margin-right: 3em;
         float: right;
+        list-style: none;
+    }
+
+    #socialMed li {
+        display: inline;
     }
 
     #copyText {
