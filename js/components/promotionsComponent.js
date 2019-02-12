@@ -37,12 +37,12 @@ export default {
     <img class="logo content rs contents rss" id="mi" src="images/Desktop_Canoe.jpg" alt="Canoeing" title="Canoeing">
     </div>
     <div class="square">
-    <div class="content contents" id="logotext1"><h2>Get Involved</h2><p>A paragraph goes here!</p></div>
+    <div class="content contents" id="logotext1"><h2>Get Involved</h2><p>Adventure awaits you in Northwest Ontario —a wilderness playground of trails and parks and hundreds of thousands of lakes and a rich Indigenous history. Take advantage of various activities to do and places to see like numerous provincial parks and vast bodies of water!</p></div>
     </div>
 </div>
 
     <div class="square squares">
-    <div class="content contents" id="logotext2"><h2>Explore Yourself</h2><p>A paragraph goes here!</p></div>
+    <div class="content contents" id="logotext2"><h2>Explore The Great Outdoors</h2><p>A paragraph goes here!</p></div>
     </div>
     <div class="square noweb">
     <img class="logo content rs contents rss" id="seaStudios" src="images/Desktop_Camping.jpg" alt="Sea Studios Logo" title="Sea Studio Logo">
@@ -52,8 +52,7 @@ export default {
 
 <div id="destination">
     <img class="destinations" src="images/Desktop_Docks.jpg" alt="docks"><img class="destinations" src="images/Desktop_Concert.jpg" alt="concert"><img class="destinations" src="images/Desktop_Cliffs.jpg" alt="cliffs"><img class="destinations" src="images/Desktop_Fair.jpg" alt="fair"><img class="destinations" src="images/Desktop_Cityscape.jpg" alt="cityscape">
-
-
+</div><div class="newsletter"><p id="daNews">SIGN UP FOR OUR NEWSLETTER</p><router-link :to="{ path: '/form'}"><button id="daNewsButton">Sign Up</button></router-link>
 </div>
 
 
