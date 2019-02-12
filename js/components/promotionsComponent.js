@@ -1,12 +1,62 @@
 export default {
     template: `
 <div id="promo">
-        <!--<h2>You're on the Promotions page</h2>-->
 
+<div id="promoHeader" class="container">
+        <img src="images/BG_HeroImage.jpg" alt="mountain background" width="100%">
+        <div class="centered">
+        <h2 id="tagline">Find Yourself At Home</h2>
+        <button><router-link :to="{ path: '/form'}">Sign Up</router-link></button>
+        </div>
+</div>
+
+<div id="explore">
+    <h2>Why Choose Ontario</h2>
+
+    <ul>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.<br><br></p>
+        </li>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.<br><br></p>
+        </li>
+        <li><a>Explore 1</a>
+            <p>Body TypeLorem ipsum dolor sit amet, <br>consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut <br>laoreet dolore magna aliquam erat <br>volutpat. Ut wisi enim ad minim <br>veniam, quis nostrud exerci tation.<br><br></p>
+        </li>
+    </ul>
+</div>
     
-    
-    
- </div>
+<div id="graphicDesignText">
+<div id="lightbox1">
+    <div class="square squares">
+    <img class="logo content rs contents rss" id="mi" src="images/Desktop_Canoe.jpg" alt="Canoeing" title="Canoeing">
+    </div>
+    <div class="square">
+    <div class="content contents" id="logotext1"><h2>Get Involved</h2><p>A paragraph goes here!</p></div>
+    </div>
+</div>
+
+    <div class="square squares">
+    <div class="content contents" id="logotext2"><h2>Explore Yourself</h2><p>A paragraph goes here!</p></div>
+    </div>
+    <div class="square noweb">
+    <img class="logo content rs contents rss" id="seaStudios" src="images/Desktop_Camping.jpg" alt="Sea Studios Logo" title="Sea Studio Logo">
+    </div>
+
+</div>
+
+<div id="destination">
+    <img class="destinations" src="images/Desktop_Docks.jpg" alt="docks">
+    <img class="destinations" src="images/Desktop_Concert.jpg" alt="concert">
+    <img class="destinations" src="images/Desktop_Cliffs.jpg" alt="cliffs">
+    <img class="destinations" src="images/Desktop_Fair.jpg" alt="fair">
+    <img class="destinations" src="images/Desktop_Cityscape.jpg" alt="cityscape">
+
+
+</div>
+
+
+</div>
     `,
 
     data() {

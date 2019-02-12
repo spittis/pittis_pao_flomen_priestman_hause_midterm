@@ -48,10 +48,11 @@
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
-}
+            }
+
 #contactRight {
         margin-left: 3em;
-    }
+        }
     
     #contactRight form {
         margin-left: 0em;
@@ -61,8 +62,8 @@
         display: block;
     }
 
-    img#desktopContact {
-        display: none !important;
+    #desktopContact {
+        display: none;
     }
 
     #contactLeft {
@@ -85,13 +86,6 @@
         padding-top: 5%;
         margin-bottom: 0px;
     }
-
-    .goaway{
-        display:none !important;
-    }
-
-
-
 
 
 #menuToggle input:checked ~ span

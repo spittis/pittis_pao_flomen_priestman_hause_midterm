@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/spittis/pittis_pao_flomen_priestman_hause_midterm#readme",
   "dependencies": {
+    "eslint": "^5.13.0",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "waypoints": "^4.0.1"
   }
 }

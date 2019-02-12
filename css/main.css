@@ -37,46 +37,34 @@
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
-
-  #contactRight {
+  #menuToggle span #contactRight {
     margin-left: 3em;
   }
-
-  #contactRight form {
+  #menuToggle span #contactRight form {
     margin-left: 0em;
   }
-
-  #mobileContact {
+  #menuToggle span #mobileContact {
     display: block;
   }
-
-  img#desktopContact {
-    display: none !important;
+  #menuToggle span #desktopContact {
+    display: none;
   }
-
-  #contactLeft {
+  #menuToggle span #contactLeft {
     margin: 0px;
   }
-
-  #contactLeft img {
+  #menuToggle span #contactLeft img {
     float: left;
     width: 100%;
     margin: 0px;
   }
-
-  #explore ul li {
+  #menuToggle span #explore ul li {
     margin-left: 0px;
   }
-
-  #explore {
+  #menuToggle span #explore {
     padding-right: 4%;
     padding-bottom: 5%;
     padding-top: 5%;
     margin-bottom: 0px;
-  }
-
-  .goaway {
-    display: none !important;
   }
 
   #menuToggle input:checked ~ span {
@@ -131,8 +119,8 @@
   }
 
   #logo {
-    width: 25%;
-    margin-top: 6%;
+    width: 10%;
+    margin-top: 2%;
     margin-left: 2%;
     float: left;
     z-index: 1;
@@ -185,8 +173,8 @@
     display: block;
   }
 
-  img#desktopContact {
-    display: none !important;
+  #desktopContact {
+    display: none;
   }
 
   #contactLeft {
@@ -214,7 +202,7 @@
   }
 
   #logo {
-    width: 20%;
+    width: 10%;
     margin-top: 2%;
     margin-left: 2%;
     float: left;
@@ -323,7 +311,58 @@
     padding: 2% 2% 1% 2%;
   }
 }
-/* LOGO */
+#graphicDesignText {
+  width: 100%;
+}
+
+.square {
+  float: left;
+  position: relative;
+  width: 50%;
+  padding-bottom: 50%;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.content .rs {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.destinations {
+  width: 19%;
+  padding: 0% !important;
+  margin: 0% !important;
+  border: none !important;
+}
+
+#destination img {
+  width: 19%;
+  padding: 0% !important;
+  margin: 0% !important;
+  border: none !important;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 #contactRight {
   float: left;
 }
