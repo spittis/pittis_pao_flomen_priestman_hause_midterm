@@ -14,16 +14,15 @@ export default {
 
 <div id="explore">
     <h2 class="hide" id="whyOntario">Why Choose Ontario</h2>
-
     <ul>
     <li><a>POSITIVE</a>
-    <p>Ontario Tourism aims to share with the world <br>just how beautiful Ontario is! We are constantly <br>finding new things to love about Ontario.<br> Come see for yourself!<br><br></p>
+    <p>Ontario Tourism aims to share with <br>the world just how beautiful Ontario is! <br>We are constantly finding new things<br> to love about Ontario.<br> Come see for yourself!<br><br></p>
 </li>
 <li><a>EXCITING</a>
-    <p>There are always new and exciting<br> activities taking place in Ontario that we would <br>love to share! There is no time like the present <br>to come and find excitement!<br><br></p>
+    <p>There are always new and exciting <br>activities taking place in Ontario <br>that we would love to share! There is no<br> time like the present to come and <br>find excitement!<br><br></p>
 </li>
 <li><a>INVITING</a>
-    <p>Ontario is one of the most inclusive places <br>as everyone is welcome! The door is always <br>open for new and returning residents <br>and visitors. The more the merrier!<br><br></p>
+    <p>Ontario is one of the most <br>inclusive places as everyone is welcome! <br>The door is always open for new and <br>returning residents and visitors. <br>The more the merrier!<br><br></p>
 </li>
     </ul>
 </div>
