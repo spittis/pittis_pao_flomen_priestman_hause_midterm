@@ -25,12 +25,31 @@
         <a href="includes/admin/admin_login.php">login</a>
         <a href="includes/admin/sign-up.php">Sign Up!</a>
 
-        
-        <router-link :to="{ path: '/promotions'}">Home</router-link>
-        <router-link :to="{ path: '/form'}">Sign Up</router-link>
+    <router-link :to="{ path: '/promotions'}"><img id="logo" src="images/Ontario_Summer-01.svg" width="200px"></router-link>
+
+        <nav role="navigation">
+                <div id="menuToggle">
+        <input id="checkbox" type="checkbox"/>
+                
+        <span></span>
+        <span></span>
+        <span></span>
+       
+    <ul id="menu">
+            <router-link :to="{ path: '/promotions'}"><li>Home</li></router-link>
+            <router-link :to="{ path: '/promotions'}"><li>Why</li></router-link>
+            <a href="index.html"><li>Get Involved</li></a>
+            <a href="index.html"><li>Explore</li></a>
+            <a href="index.html"><li>Destinations</li></a>
+            <router-link :to="{ path: '/form'}"><li>Sign Up</li></router-link>
+    </ul>
+
+    
+</div>
+</nav>
     
     <transition name="fade" mode="out-in">
-        <router-view></router-view>
+        <router-view id="move"></router-view>
     </transition>
 
 </main>
